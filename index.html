@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Love proposal</title>
+        <script type="text/javascript">
+            function msg() {
+                alert("it's a Prank");
+            }
+
+            function no() {
+                alert("You're fucking ugly, I was just pranking!!")
+            }
+        </script> 
+        <style>
+            body{
+                
+                text-align: center;
+            }
+            #yes-btn, #no-btn{
+                background-color: red;
+                border: solid black 4px;
+                color: white;
+                font-size: 300px;
+                border-radius: 50px;
+                cursor: pointer;
+                font-weight: bold;
+            }
+            #yes-btn:hover, #no-btn:hover{
+                background-color: rgb(112, 4, 4);
+            }
+            #header{
+                font-size: 200px;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+            }
+            #yes-btn{
+                margin-right: 200px;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <p id="header">Can I be your Girlfriend?</p>
+        <input id="yes-btn" type="button" value="Yes" onclick="msg()">
+        <input id="no-btn" type="button" value="No" onclick="no()">
+    </body>
+</html>
